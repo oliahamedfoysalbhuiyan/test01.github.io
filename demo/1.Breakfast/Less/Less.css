@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&amp;display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  background: #1d1d23;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #d31e1e;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+a,
+span,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Bree Serif';
+}
+h1 {
+  font-size: 66px;
+  color: #e58f00;
+  text-shadow: 1px 1px 3px #000;
+}
+h2 {
+  font-size: 50px;
+  color: #e58f00;
+  text-shadow: 1px 1px 3px #000;
+}
+h3 {
+  color: #ddd;
+  font-size: 33px;
+  font-family: 'nexa';
+}
+h4 {
+  color: #ddd;
+  font-size: 24px;
+  font-family: 'nexa';
+}
+h5 {
+  color: #e58f00;
+  font-size: 30px;
+}
+h6 {
+  color: #ddd;
+  font-size: 16px;
+}
+p {
+  font-size: 13px;
+  color: #d3d3d3;
+}
+.ptb {
+  padding: 80px 0px;
+}
+.btn {
+  font-family: 'Bree Serif';
+  padding: 10px 20px;
+  background: #e58f00;
+  font-size: 18px;
+}
+.btn:hover {
+  background: #ffab1e;
+  box-shadow: 2px 2px 4px #000;
+}
+/* ============================  */
+/* >>>>>>> MANU = (START) >>>>>>> */
+.header_part {
+  width: 100%;
+  z-index: 9999;
+  padding: 10px 0px;
+  background-color: transparent;
+}
+.header_part .nav-item .nav-link {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #cecece;
+  padding: 0px 20px;
+  transition: 0.5s;
+}
+.header_part .nav-item .nav-link:hover {
+  color: #3b7fff;
+}
+/* <<<<<<< MANU = (END) <<<<<<<< */
+/* >>>>>>>  BANNER  = (START) >>>>>>> */
+.banner_part {
+  background: url(../image/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px 200px;
+}
+.banner_cont {
+  padding: 30px;
+}
+.banner_cont h4 {
+  padding: 20px 0px 40px;
+  line-height: 1.4;
+}
+/* <<<<<<<  BANNER  = (END) <<<<<<<< */
+/* >>>>>>>  ABOUT  = (START) >>>>>>> */
+.about_cont {
+  padding: 30px;
+}
+.about_cont h3 {
+  padding-top: 50px;
+  line-height: 1.2;
+}
+/* <<<<<<<  ABOUT  = (END) <<<<<<<< */
+/* >>>>>>>  FOOD  = (START) >>>>>>> */
+.food_part {
+  position: relative;
+}
+.food_bg img {
+  width: 100%;
+}
+.food_img1 {
+  position: absolute;
+  top: -1%;
+  right: 0%;
+}
+.food_img2 {
+  position: absolute;
+  top: 40%;
+  right: 0%;
+}
+.food_img3 {
+  position: absolute;
+  bottom: 6%;
+  left: 0;
+}
+/* <<<<<<<  FOOD  = (END) <<<<<<<< */
+/* >>>>>>>  GALLARY  = (START) >>>>>>> */
+.gallary_part h2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.gallary_part img {
+  margin: 15px 5px;
+}
+/* <<<<<<<  GALLARY  = (END) <<<<<<<< */
+/* >>>>>>>  ENJOY  = (START) >>>>>>> */
+.enjoy_part {
+  background: url(../image/enjoy-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  padding: 150px 0px;
+}
+.enjoy_text {
+  padding: 60px 0px 40px;
+  border: 7px solid #e58f00;
+  background: rgba(0, 0, 0, 0.49);
+}
+.enjoy_text h3 {
+  margin: 30px 80px;
+  line-height: 1.3;
+}
+/* <<<<<<<  ENJOY  = (END) <<<<<<<< */
+/* >>>>>>>  MANUS  = (START) >>>>>>> */
+.manu_item {
+  padding-top: 40px;
+}
+.manu_item h5 {
+  font-size: 25px;
+  padding: 25px 0px 15px;
+}
+.manu_item h4 {
+  padding-top: 15px;
+  font-size: 20px;
+}
+/* <<<<<<<  MANUS  = (END) <<<<<<<< */
+/* >>>>>>>  MEAL  = (START) >>>>>>> */
+.meal_part {
+  background: #e58f00;
+  position: relative;
+  padding: 40px 0px;
+  margin: 100px 0px;
+}
+.meal_part .meal_text {
+  float: right;
+  padding: 20px 70px;
+}
+.meal_part .meal_text h2 {
+  color: #ddd;
+  text-shadow: none;
+  padding-bottom: 20px;
+}
+.meal_part img {
+  position: absolute;
+  top: -40%;
+}
+/* <<<<<<<  MEAL  = (END) <<<<<<<< */
+/* >>>>>>>  BOTTOM  = (START) >>>>>>> */
+.bottom_part a {
+  float: left;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 50px 20px 0px 0px;
+}
+/* <<<<<<<  BOTTOM  = (END) <<<<<<<< */
+/* >>>>>>>  FOOTER = (START) >>>>> */
+.footer_part {
+  background: #1d1d1d;
+}
+.footer_part h3 {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px;
+  font-weight: 600;
+  color: #9f9f9f;
+}
+.footer_part h3 span {
+  color: cornflowerblue;
+  text-shadow: 0 0 4px #000000;
+}
+/* <<<<<<< FOOTER = (END) <<<<< */
+/* ============================= */

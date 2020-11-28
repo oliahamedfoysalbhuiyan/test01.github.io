@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&amp;display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+n a,
+a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.3s;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+a,
+span,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 200;
+    color: #bfbfbf;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+h1 span {
+    color: #fcac45;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 34px;
+    color: #5c5c5c;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #f7f7f7;
+    font-size: 20px;
+}
+
+h4 {
+    color: #414042;
+    font-size: 18px;
+}
+
+h5 {
+    color: #c3c3c3;
+    font-size: 16px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #838383;
+}
+
+.ptb {
+    padding: 80px 0px;
+}
+
+/* <<<<<<<COMMON CSS END<<<<<<< */
+/* >>>>>> MANU PART START>>>>> */
+.menu_part {
+  position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    border-bottom: .5px solid rgba(59, 59, 59, 0.4);
+    background: rgba(210, 214, 255, 0.2);
+}
+
+.navbar-toggler i {
+    color: #989898;
+
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.manu .nav-item .nav-link {
+    font-size: 13px;
+    padding: 20px 0px 10px;
+    margin: 0px 15px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+    position: relative;
+}
+
+.manu .nav-item .nav-link::after {
+    width: 0;
+    height: 3px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+    background: #eaff4b;
+    opacity: 0;
+}
+
+.manu .nav-item.active .nav-link::after,
+.manu .nav-item:hover .nav-link::after {
+    width: 100%;
+    opacity: 1;
+    box-shadow: 0 0 5px;
+}
+
+/* <<<<<< MANU PART END <<<<<< */
+/* >>>>>> BANNER  PART START>>>>> */
+.banner_part {
+    background: url(../image/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.banner_part .carousel-control-next,
+.banner_part .carousel-control-prev {
+    width: 10%;
+    opacity: 1;
+}
+
+.banner_part .carousel-control-next i,
+.banner_part .carousel-control-prev i {
+    color: #bcbcbc;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    border: .5px solid #a7a7a7;
+    -webkit-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+
+.banner_part .carousel-control-next:hover i,
+.banner_part .carousel-control-prev:hover i {
+    background: rgba(75, 202, 255, 0.44);
+    box-shadow: 0 0 3px;
+}
+
+
+/* <<<<<< BANNER  PART END <<<<<< */
+/* >>>>>> About PART START>>>>> */
+.about_part {
+    margin: 50px 0px 20px;
+}
+
+.about_text {
+    padding-right: 100px;
+}
+
+.about_text h3 {
+    color: #626262;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.about_text h2 {
+    color: #000;
+}
+
+.about_text h4 {
+    padding: 15px 0px;
+}
+
+.about_text p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about_text p span {
+    font-weight: 600;
+    font-size: 18px;
+    color: #414141;
+}
+
+.about_text p i {
+    color: #414141;
+    padding-right: 5px;
+    font-size: 16px;
+}
+
+.about_text .btn {
+    color: #555555;
+    padding: 10px 15px;
+    border: .5px solid #767676;
+    font-size: 13px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.about_text .btn:hover {
+    background: #6ed2ff;
+    border-color: #6ed2ff;
+}
+
+.about_text .btn i {
+    padding-right: 5px;
+}
+
+/* <<<<<< About PART END <<<<<< */
+/* >>>>>> TEAM  PART START>>>>> */
+.team_part {
+    background: #070707;
+}
+
+.team_part .btn {
+    margin: 10px;
+    text-align: center;
+    margin: 0 auto;
+    left: 50%;
+    bottom: 0;
+}
+
+.team_part .slick-next.slick-arrow,
+.slick-prev,
+.slick-arrow {}
+
+.slide {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.slide .img-fluid {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.slide p {
+    padding: 15px 25px;
+}
+
+.team_part .slick-arrow {
+    opacity: 0;
+}
+
+/* <<<<<< TEAM  PART END <<<<<< */
+/* >>>>>> SERVICES START>>>>> */
+.service_part h5 {
+    padding: 20px;
+    color: #505050;
+    text-align: center;
+}
+
+.service_item {
+    padding: 25px 20px;
+    float: left;
+}
+
+.service_item i {
+    font-size: 25px;
+    height: 70px;
+    width: 70px;
+    border: 4px solid #fcac45;
+    border-radius: 50%;
+    line-height: 2.5;
+}
+
+.service_item h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.service_item p {
+    color: #272727;
+}
+
+/* <<<<<< SERVICES  END <<<<<< */
+/* >>>>>> CLINT  -START>>>>> */
+.clint_part {
+    background: url(../image/Spirit8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.clint part,
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    background-color: #ffae43;
+    opacity: .3;
+    transition: opacity .6s ease;
+}
+
+.clint_item {
+    padding: 80px 0px;
+}
+
+/* <<<<<< CLINT -END <<<<<< */
+
+/* >>>>>> WORK - START>>>>> */
+.work_part h5 {
+    padding: 30px;
+    color: #505050;
+    text-align: center;
+}
+
+/* Center website */
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+   position: relative;
+    display: none;
+    transition: 1s;
+    width: 23%;
+    margin:  10px;
+    box-shadow: 0 0 1px;
+}
+
+.show {
+    display: block;
+    transition: .5s;
+}
+
+/* Style the buttons */
+.btn_group {
+    float: right;
+}
+
+.image {
+   display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(34, 34, 34, 0.89);
+   
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.column:hover .overlay {
+    bottom: 0;
+    height: 100%;
+     opacity: 1;
+}
+.text h4  {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+    text-transform: uppercase;
+  
+}
+.text h5{
+color: #cecece;
+  font-size: 14px;
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  
+}
+.text i{
+    color:  rgba(255, 174, 67, 0.64);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+    padding: 10px;
+ 
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.btn_group .btn {
+    margin-right: 6px;
+    padding: 5px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #ddd;
+}
+
+/* The "show" class is added to the filtered elements */
+.btn {
+    float: left;
+    background-color: ;
+    margin: 2px;
+    color: #292929;
+    border: none;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: rgba(102, 102, 102, 0.42);
+}
+
+/* <<<<<< WORK - END <<<<<< */
+/* >>>>>> TESTMONIAL  -START>>>>> */
+.testmonial_part {
+    background: url(../image/bgg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testmonial_part h4 {
+    color: #b2b2b2;
+    line-height: 1.5;
+}
+
+/* <<<<<< TESTMONIAL -END <<<<<< */
+/* >>>>>>  CONTACT -START>>>>> */
+.contact_part h5 {
+    padding: 40px;
+    color: #505050;
+    text-align: center;
+}
+
+.contact_part button {
+    background-color: #ffae43;
+    float: right;
+    padding: 5px 20px;
+}
+
+.contact_part label {
+    color: #575757;
+}
+
+.contact_part textarea {
+    color: #cc0808;
+    height: 150px;
+    border: 1px solid #8b8b8b;
+}
+
+.contact_part input {
+    border: 1px solid #8b8b8b;
+}
+
+/* <<<<<< CONTACT -END <<<<<< */
+/* -----------------------  */
+/* >>>>>>   -START>>>>> */
+.footer_part {
+    background: #1d1d1d;
+}
+
+.footer_part h3 {
+    font-size: 15px;
+    font-family: inherit;
+    padding: 10px;
+}
+
+.footer_part h3 span {
+    color: cornflowerblue;
+}
+
+.footer_part i {
+    color: darkgray;
+    margin: 0 2px;
+    transition: .5s;
+}
+
+.footer_part i:hover {
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+/* <<<<<<  -END <<<<<< */

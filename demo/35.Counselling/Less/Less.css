@@ -1,0 +1,811 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-U1Ug.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirk-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rg-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Raleway Light Italic'), local('Raleway-LightItalic'), url(https://fonts.gstatic.com/s/raleway/v16/1Ptpg8zYS_SKggPNyCgw5qNPBQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v16/1Ptug8zYS_SKggPN-Co.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v16/1Ptrg8zYS_SKggPNwN4raqE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v16/1Ptrg8zYS_SKggPNwPIsaqE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v16/1Ptrg8zYS_SKggPNwJYtaqE.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #ffffff;
+}
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #35adf8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+img,
+span,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 55px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #111;
+  font-family: 'Raleway', sans-serif;
+}
+h2 {
+  font-size: 40px;
+  color: #aaa;
+  font-weight: 600;
+}
+h3 {
+  font-size: 35px;
+  color: #aaa;
+  font-weight: 600;
+}
+h4 {
+  font-size: 28px;
+  color: #aaa;
+  font-weight: 600;
+}
+h5 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+}
+h6 {
+  font-size: 18px;
+  color: #aaa;
+  font-weight: 600;
+}
+p {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+.ptb {
+  padding: 50px 0px;
+}
+.btn {
+  padding: 5px 15px;
+  border: 1.2px solid #ddd;
+  border-radius: 20px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 14px;
+  transition: .4s;
+}
+.btn:hover {
+  color: #fff;
+  background: #0072c6;
+  border-color: #0072c6;
+}
+.btn:active {
+  color: #fff;
+  background: #004c83;
+}
+/* ------------------------------------------------------------------------- */
+/* >>>> Common Heading = (START) >>>> */
+.common_part {
+  padding-bottom: 40px;
+}
+.common_part h4 {
+  color: #656565;
+  text-transform: uppercase;
+  font-family: 'nexa';
+}
+.common_part h4 span {
+  color: #1872aa;
+}
+.divider {
+  position: relative;
+  display: inline-block;
+  margin: 0px 0;
+  width: 85px;
+  text-align: center;
+}
+.divider:before,
+.divider:after {
+  position: absolute;
+  left: 0;
+  top: -8px;
+  height: 3px;
+  width: 50px;
+  background-color: #10ac64;
+  content: "";
+  border-radius: 1.5px;
+}
+.common_part .divider:after {
+  left: auto;
+  right: 0;
+}
+/* <<<< Common Heading = (END) <<<< */
+/* ------------------------------------------------------------------------- */
+/* >>>>  BACK to TOP = (START) >>>> */
+.totop {
+  position: fixed;
+  bottom: 100px;
+  right: 2px;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  display: none;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  border-radius: 10px;
+  line-height: 45px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.totop:hover {
+  color: #34b9ff;
+  box-shadow: 1px 1px 2px #000000;
+  text-shadow: 1px 1px 2px #000000;
+}
+/* <<<<  BACK to TOP = (END) <<<< */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* >>>>> TOP = (START) >>>>> */
+.top_part {
+  padding: 6px;
+  background: #642234;
+}
+.top_part p {
+  color: #ddd;
+  font-size: 13px;
+  line-height: 2;
+}
+.top_part p span {
+  padding-right: 15px;
+}
+.top_part p i {
+  padding-right: 2px;
+  color: #63c2ff;
+}
+.top_part .btn {
+  float: right;
+  font-size: 13px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+/* <<<<< TOP = (ENDs) <<<<<< */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* >>>> HEADER = (START) >>>> */
+.header_part {
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+  padding: 10px 0px;
+  position: fixed;
+  transition: .5s;
+}
+.header_part.scrolling {
+  background-color: #fff;
+  transition: .5s;
+  padding: 2px 0px;
+  border-bottom: 1px solid #aaa;
+  position: fixed;
+  top: 0;
+}
+.navbar-brand img {
+  height: 60px;
+  width: 250px;
+}
+.header_part .nav-item .nav-link {
+  background-color: transparent;
+  padding: 10px 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5c5c5c;
+  transition: .7s;
+  display: inline-block;
+}
+.header_part .nav-item .nav-link:hover {
+  color: #ffffff;
+  background: #642234;
+}
+.dropdown {
+  position: relative;
+}
+.dropbtn {
+  background-color: transparent;
+  border: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  font-size: 13px;
+  background-color: #e0e0e0;
+  min-width: 100px;
+  box-shadow: 2px 2px 4px #000;
+  z-index: 9999;
+  border-bottom: 4px solid #0e68aa;
+  border-radius: 5px;
+}
+.dropdown-content a {
+  color: #000;
+  padding: 5px;
+  border-bottom: 1px solid #cecece;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 5px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  color: #fff;
+}
+/* <<<<< HEADER = (END) <<<<< */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------ */
+/* >>>> BANNER-fade = (START) >>>>>>> */
+.owlslide_part {
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+}
+.owlslide_part .banner_slide img {
+  height: 550px;
+  position: relative;
+}
+.overly {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 17, 34, 0.6);
+}
+.banner_text {
+  padding: 100px 0px;
+  position: absolute;
+  z-index: 99;
+}
+.banner_text .btn {
+  padding: 8px 15px;
+  font-size: 17px;
+  letter-spacing: .5px;
+}
+.banner_text h5 {
+  padding: 20px 0px;
+  line-height: 1.8;
+}
+.button_su {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.su_button_circle {
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0px;
+  height: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  pointer-events: none;
+}
+.button_su_inner {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+  text-align: center;
+  border-radius: 5px;
+  z-index: 99;
+}
+.button_text_container {
+  position: relative;
+  z-index: 0;
+  color: #fff;
+}
+.button_text_container:active {
+  color: #a1d3ff;
+}
+.explode-circle {
+  animation: explode 1s forwards;
+}
+.desplode-circle {
+  animation: desplode .5s forwards;
+}
+@keyframes explode {
+  0% {
+    background-color: #9a3551;
+  }
+  100% {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: #9a3551;
+  }
+}
+@keyframes desplode {
+  0% {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: rgba(100, 34, 52, 0.68);
+  }
+  100% {
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgba(100, 34, 52, 0.69);
+  }
+}
+/* <<<<<<< BANNER-fade = (END) <<<<<<<< */
+/* ----------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* >>>>> SECTION = (START) >>>>> */
+.section_part .btn {
+  background: #1d84c4;
+  padding: 2px 13px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.section_img img {
+  height: 350px;
+  width: 100%;
+  border-radius: 5px;
+}
+.section_text h6 {
+  color: #125c93;
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  position: relative;
+}
+.section_text h6::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 60px;
+  background: #27af6b;
+  bottom: 6px;
+  left: 0;
+}
+.section_text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+/* <<<<< SECTION = (ENDs) <<<<<< */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* >>>>> STORIES = (START) >>>>> */
+.stories_part {
+  background: #eee;
+}
+.story_item {
+  margin: 5px 10px;
+  box-shadow: 1px 2px 5px #aaa;
+  border-radius: 5px;
+}
+.story_item img {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.story_text {
+  padding: 15px;
+}
+.story_text h6 {
+  font-size: 14px;
+  font-family: 'nexa';
+  text-transform: uppercase;
+  color: #095698;
+  letter-spacing: .5px;
+  padding-bottom: 10px;
+}
+.story_text .btn {
+  background: #0c76c4;
+  font-size: 12px;
+  padding: 1px 8px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+.left_arrow {
+  position: absolute;
+  top: 40%;
+  left: -10px;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  background: #0c76c4;
+  font-size: 20px;
+  transition: 0.5s;
+  border-radius: 50%;
+  z-index: 99;
+  text-align: center;
+  line-height: 1.8;
+  border: 3px solid #eee;
+}
+.right_arrow {
+  position: absolute;
+  top: 40%;
+  right: -10px;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  background: #0c76c4;
+  font-size: 20px;
+  transition: 0.5s;
+  border-radius: 50%;
+  z-index: 99;
+  text-align: center;
+  line-height: 1.8;
+  border: 3px solid #eee;
+}
+.left_arrow:hover {
+  border: 3px solid #0c76c4;
+}
+.right_arrow:hover {
+  border: 3px solid #0c76c4;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slick-dots li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.slick-dots li button {
+  font-size: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(123, 123, 123, 0.21);
+  border: none;
+  border-radius: 50%;
+}
+.slick-dots .slick-active button {
+  background-color: #00b4de;
+  width: 15px;
+  height: 15px;
+}
+/* <<<<< STORIES = (ENDs) <<<<<< */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* >>>>> bg = (START) >>>>> */
+.bg_part {
+  background: url(../image/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg_part .button_su_inner {
+  background: #0c76c4;
+}
+.bg_text {
+  text-align: center;
+  padding: 100px 0px;
+}
+.bg_text h1 {
+  padding-bottom: 20px;
+}
+/* <<<<< bg = (ENDs) <<<<<< */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* >>>>> depression = (START) >>>>> */
+.depression_part {
+  position: relative;
+}
+.depression_part .button_su_inner {
+  background: #0c76c4;
+}
+.depression_text {
+  background: #23accc;
+  padding: 40px 20px;
+  margin-right: 80px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: -20%;
+}
+.depression_text h3 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+/* <<<<< depression = (ENDs) <<<<<< */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* >>>>> blog = (START) >>>>> */
+.blog_item {
+  background: #eee;
+  box-shadow: 1px 2px 10px #aaa;
+  border-radius: 10px;
+}
+.blog_item:hover .blog_img img {
+  transform: scale(1.4);
+}
+.blog_img {
+  overflow: hidden;
+}
+.blog_img img {
+  transition: .5s;
+  height: 220px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.blog_text {
+  padding: 10px;
+}
+.blog_text span {
+  font-size: 12px;
+}
+.blog_text h6 {
+  color: #0575ba;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+.blog_text .btn {
+  background: #0c76c4;
+  font-size: 12px;
+  padding: 1px 10px;
+  margin: 10px 0px;
+}
+/* <<<<< blog = (ENDs) <<<<<< */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* >>>>> donet = (START) >>>>> */
+.donet_part {
+  background: url(../image/donate-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.donet_part .button_su_inner {
+  background: #0c76c4;
+}
+.donet_text {
+  padding: 100px 0px;
+}
+/* <<<<< donet = (ENDs) <<<<<< */
+/* ------------------------------------------------------------------------- */
+.subscribe_part {
+  background: #036ebc;
+}
+.subscribe_part h4 {
+  color: #ddd;
+  float: left;
+}
+.subscribe_part .search {
+  position: relative;
+  display: flex;
+  float: right;
+}
+.subscribe_part .searchTerm {
+  width: 250px;
+  border: 1px solid #fff;
+  border-right: none;
+  padding: 10px;
+  height: 45px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #000;
+}
+.subscribe_part .searchTerm:focus {
+  color: #222;
+}
+.subscribe_part .searchButton {
+  width: 100px;
+  height: 45px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.subscribe_part .searchButton:hover {
+  background: #009dcc;
+}
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> CONTACT = (START) >>>>>>> */
+.contact_part {
+  background: #601f2c;
+}
+.contact_part .btn {
+  padding: 2px 10px;
+  font-size: 12px;
+  margin-top: 6px;
+  border-radius: 5px;
+  background: #0566ad;
+  border: none;
+}
+.contact_img {
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #6c6c6c;
+}
+.contact_item h5 {
+  color: #fff;
+  font-size: 20px;
+  padding: 25px 0px 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px #000;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contact_item p {
+  font-size: 13px;
+  padding-bottom: 15px;
+  color: #ddd;
+  transition: 0.4s;
+}
+.contact_item p:hover {
+  color: #24b0fc;
+  padding-left: 5px;
+}
+.contact_item p i {
+  font-size: 16px;
+  color: #0093e2;
+  padding-right: 5px;
+}
+.icons a i {
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  margin: 20px 10px 0px 0px;
+  font-size: 20px;
+  transition: 0.3s;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+.icons a i:hover {
+  transform: scale(1.2);
+}
+.from_input {
+  width: 100%;
+  border: 0.5px solid #ddd;
+  padding: 4px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  color: #a6c5ff;
+}
+.from_input:focus {
+  color: #ffffff;
+}
+.from_input::placeholder {
+  color: #aaa;
+}
+/* <<<<<<< CONTACT = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------- */
+/* >>>>> footer = (START) >>>>> */
+.footer_part {
+  background: #222;
+  padding: 10px 0px;
+}
+.footer_part p {
+  color: #aaa;
+}
+.footer_part a {
+  float: right;
+  padding: 0px 15px;
+  border-left: 1px solid #004a81;
+  color: #aaa;
+}
+.footer_part a:last-child {
+  border-left: none;
+}
+.footer_part a:hover {
+  color: #fff;
+}
+/* <<<<< footer = (ENDs) <<<<<< */
+/* ------------------------------------------------------------------------- */

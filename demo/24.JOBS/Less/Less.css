@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700&amp;display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #ffffff;
+}
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+img,
+span,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 36px;
+  color: #ddd;
+  text-shadow: 1px 1px 2px #000;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+h1 span {
+  font-size: 40px;
+  font-weight: 700;
+}
+h2 {
+  color: #ddd;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 2;
+}
+h3 {
+  color: #105b7b;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+}
+h3::after {
+  position: absolute;
+  height: 2px;
+  width: 120px;
+  background: #046942;
+  bottom: 10px;
+  left: 0;
+  content: '';
+}
+h4 {
+  color: #ddd;
+  font-size: 22px;
+}
+h5 {
+  color: #ddd;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h6 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+p {
+  font-size: 13px;
+  color: #111;
+}
+.ptb {
+  padding: 60px 0px;
+}
+.btn {
+  margin: 5px;
+  padding: 6px 10px;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 1.3px solid #0196d3;
+  font-weight: 500;
+  color: #0196d3;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.btn:hover {
+  color: #fff;
+  background: #0196d3;
+  border-color: #0196d3;
+}
+/* ============================  */
+/* --------------------------------------------------------------------------------- */
+/* >>>>>>> Common Heading = (START) >>>>>> */
+.common_part {
+  padding-bottom: 60px;
+}
+.common_part h2 {
+  color: #01b17a;
+  text-shadow: 1px 1px 2px #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.common_part p {
+  font-family: 'Sriracha', cursive;
+  font-size: 12px;
+  color: #999;
+}
+/* <<<<<<< Common Heading = (END) <<<<<<< */
+/* --------------------------------------------------------------------------------- */
+/* ============================  */
+/* --------------------------------------------------------------------------------- */
+/* >>>>>>> HEADER = (START) >>>>>>> */
+.header_part {
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+  padding: 10px 0px;
+  transition: 1s;
+}
+.navbar-brand img {
+  width: 220px;
+  height: 40px;
+}
+.header_part.scrolling {
+  transition: 1s;
+  padding: 5px 0px;
+  border-bottom: 1px solid #333;
+  position: fixed;
+}
+.header_part .nav-item .nav-link {
+  background-color: transparent;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e3e3e;
+}
+.header_part .nav-item .nav-link:hover {
+  color: #0196d3;
+}
+.dropdown {
+  position: relative;
+}
+.dropbtn {
+  background-color: transparent;
+  border: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  font-size: 13px;
+  background-color: #e0e0e0;
+  min-width: 90px;
+  box-shadow: 2px 2px 4px #000;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #000;
+  padding: 5px;
+  border-bottom: 1px solid #cecece;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-weight: 600;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  color: #fff;
+}
+/* <<<<<<< HEADER = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>>  BANNER  = (START) >>>>>>> */
+.banner_part {
+  background: url(../image/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 0px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 9, 29, 0.73);
+}
+/* <<<<<<<  BANNER  = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>>  VIDEO  = (START) >>>>>>> */
+.office_img {
+  margin: 10px 40px;
+  position: relative;
+}
+.office_img img {
+  height: 250px;
+  width: 100%;
+  border-radius: 5px;
+}
+.office_img a {
+  text-align: center;
+  line-height: 2.9;
+  position: absolute;
+  top: 38%;
+  left: 42%;
+  box-shadow: 2px 2px 3px #111;
+  font-size: 25px;
+  color: #111;
+  height: 70px;
+  width: 70px;
+  background: #fff;
+  z-index: 999;
+  border-radius: 50%;
+}
+.overly {
+  background: rgba(11, 11, 11, 0.32);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 5px;
+}
+.video_text h3 {
+  text-transform: uppercase;
+  padding: 10px 0px 20px;
+  font-weight: 700;
+}
+.video_text p {
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: 500;
+  color: #727272;
+}
+/* <<<<<<<  VIDEO  = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> SCRIPT = (START) >>>>>>> */
+.script_part {
+  background: #ddd;
+  padding: 20px 0px;
+}
+.script_part .btn {
+  float: left;
+  background: #0c4772;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.script_part p {
+  font-weight: 500;
+  color: #666;
+  padding: 10px 0px;
+}
+.script_part p a {
+  color: #0196d3;
+  font-size: 15px;
+}
+/* <<<<<<< SCRIPT = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> SOFTWARE = (START) >>>>>>> */
+.software_img {
+  margin: 10px 20px;
+  position: relative;
+}
+.software_img img {
+  height: 280px;
+  width: 100%;
+  border-radius: 5px;
+}
+.software_text h3 {
+  text-transform: uppercase;
+  padding: 10px 0px 20px;
+  font-weight: 700;
+}
+.software_text p {
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: 500;
+  color: #727272;
+}
+.software_text .btn {
+  margin-top: 20px;
+  background: #0196d3;
+  color: #fff;
+}
+.software_text .btn:hover {
+  background: #00638b;
+}
+/* <<<<<<< SOFTWARE = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> Common Heading = (START) >>>>>> */
+.common_part {
+  padding-bottom: 40px;
+  position: relative;
+}
+.common_part h2 {
+  color: #d6314a;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+.common_part h2 span {
+  color: #969696;
+}
+.divider {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+.divider i {
+  color: #129a6e;
+}
+.divider:before,
+.divider:after {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  height: 1px;
+  width: 60px;
+  background-color: #129a6e;
+  content: "";
+}
+.common_part .divider:after {
+  left: auto;
+  right: 0;
+}
+/* <<<<<<< Common Heading = (END) <<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> CHOOSE = (START) >>>>>>> */
+.choose_part {
+  background: #ddd;
+}
+.choose_item {
+  background: #fff;
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px;
+  transition: .4s;
+}
+.choose_item:hover {
+  box-shadow: 1px 1px 4px #111;
+  transform: scale(1.06);
+}
+.choose_item img {
+  padding-bottom: 20px;
+}
+.choose_item h6 {
+  color: #444;
+  font-weight: 500;
+  line-height: 1.6;
+}
+/* <<<<<<< CHOOSE = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> APP = (START) >>>>>>> */
+.app_img {
+  margin: 10px;
+  position: relative;
+}
+.app_img img {
+  height: 330px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #111;
+}
+.app_text {
+  margin: 40px 25px;
+}
+.app_text h3 {
+  text-transform: uppercase;
+  padding: 10px 0px 20px;
+  font-weight: 700;
+}
+.app_text p {
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: 500;
+  color: #727272;
+}
+.app_text .btn {
+  margin-top: 20px;
+  background: #0196d3;
+  color: #fff;
+}
+.app_text .btn:hover {
+  background: #00638b;
+}
+/* <<<<<<< APP = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> REady = (START) >>>>>>> */
+.ready_part {
+  background: #ddd;
+  padding: 20px 0px;
+}
+.ready_part .btn {
+  float: right;
+  background: #0c4772;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  margin-right: 20px;
+}
+.ready_part p {
+  font-size: 16px;
+  float: left;
+  font-weight: 500;
+  color: #363636;
+  padding: 10px 0px;
+}
+.ready_part p span {
+  padding-left: 40px;
+  color: #727272;
+  font-size: 13px;
+  text-align: center;
+}
+/* <<<<<<< READY = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> WORDPRESS = (START) >>>>>>> */
+.wordpress_text {
+  margin: 50px 25px;
+}
+.wordpress_text h3 {
+  text-transform: uppercase;
+  padding: 10px 0px 20px;
+  font-size: 25px;
+}
+.wordpress_text p {
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: 500;
+  color: #727272;
+}
+.wordpress_text .btn {
+  margin-top: 20px;
+  background: #0196d3;
+  color: #fff;
+}
+.wordpress_text .btn:hover {
+  background: #00638b;
+}
+.wordpress_img {
+  position: relative;
+}
+.wordpress_img img {
+  border-radius: 5px;
+  width: 100%;
+}
+.wordpress_overlay {
+  border-radius: 5px;
+  position: absolute;
+  height: 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 20, 52, 0.62);
+  opacity: 0;
+  transition: .3s;
+}
+.wordpress_overlay .icons {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 100px;
+  color: #fff;
+}
+.wordpress_overlay .icon2 {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: #fff;
+  display: inline-block;
+}
+.wordpress_overlay .icon2 a i {
+  text-align: center;
+  line-height: 1.8;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+  margin: 0px 10px;
+  transition: .3s;
+}
+.wordpress_overlay .icon2 a i:hover {
+  background: #0196d3;
+  box-shadow: 0 0 5px #000;
+}
+.wordpress_img:hover .wordpress_overlay {
+  opacity: 1;
+  height: 100%;
+}
+/* <<<<<<< WORDPRESS = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> FOOTER = (START) >>>>>>> */
+.footer_part {
+  background: #1f2022;
+  padding: 25px 0px;
+}
+.footer_part img {
+  height: 30px;
+  float: left;
+  padding-right: 20px;
+}
+.footer_part p {
+  font-size: 10px;
+  color: #9d9d9d;
+  padding: 10px;
+}
+.footer_part p span {
+  float: right;
+}
+.footer_part p span a {
+  color: #009fe0;
+}
+.footer_part p span i {
+  font-size: 15px;
+  color: #ddd;
+  margin: 0px 5px;
+}
+.footer_part p span i:hover {
+  color: #009fe0;
+  transform: scale(1.1);
+}
+/* <<<<<<< FOOTER = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>>  BACK to TOP = (START) >>>>>>> */
+.totop {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  display: none;
+  background: rgba(0, 41, 106, 0.67);
+  color: #fff;
+  text-shadow: 1px 1px 1px #000000;
+  border-radius: 5px;
+  line-height: 45px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.totop:hover {
+  box-shadow: 2px 2px 2px #000000;
+}
+/* <<<<<<<  BACK to TOP = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/*================================================================================ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>>  = (START) >>>>>>> */
+/* <<<<<<<  = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */

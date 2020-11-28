@@ -1,0 +1,832 @@
+/* Small Mobile -START (320 * 440) */
+@media (min-width: 320px) and (max-width: 440px) {
+
+	html ::-webkit-scrollbar {
+		width: 6px;
+		background: #031d33;
+	}
+
+	html ::-webkit-scrollbar-thumb {
+		background: #7fe1ff;
+		box-shadow: 0 0 5px #000;
+		border-radius: 3px;
+		width: 3px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	h6 {
+		font-size: 14px;
+	}
+
+	.ptb {
+		padding: 30px 0px;
+	}
+
+	.btn {
+		margin: 10px 5px 0px 0px;
+		font-size: 12px;
+	}
+
+	/* >>>>>>> Common Heading = (START) >>>>>> */
+	.common_part {
+		padding-bottom: 20px;
+	}
+
+	/* <<<<<<< Common Heading = (END) <<<<<<< */
+	/* >>>>>>> HEADER = (START) >>>>>>> */
+	.header_part .nav-item .nav-link {
+		padding: 2px 5px;
+		float: left;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+	}
+
+	.navbar-brand img {
+		height: 25px;
+		width: 100px;
+	}
+
+	/* <<<<<<< HEADER = (END) <<<<<<<< */
+	/* >>>>>>>  BANNER = (START) >>>>>>> */
+	.banner_img p {
+		padding: 10px;
+	}
+
+	.banner_img img {
+		height: 120px;
+		width: 120px;
+	}
+
+	/* <<<<<<<  BANNER = (END) <<<<<<<< */
+	/* >>>>>>>  SKILLS  = (START) >>>>>>> */
+	.skills_part li {
+		padding: 10px;
+	}
+
+	.skill_icon i {
+		font-size: 20px;
+	}
+
+	.skills_part h3 {
+		font-size: 12px;
+	}
+
+	.bar {
+		height: 5px;
+		margin-top: 6px;
+	}
+
+	.bar span {
+		height: 5px;
+	}
+
+	/* <<<<<<<  SKILLS  = (END) <<<<<<<< */
+	/* >>>>>>>  COUNTER  = (START) >>>>>>> */
+	.counter_item i {
+		font-size: 25px;
+		height: 50px;
+		width: 50px;
+	}
+
+	.counter_item .counter {
+		font-size: 20px;
+		padding: 5px 0px;
+	}
+
+	.counter_item h4 {
+		font-size: 10px;
+		text-shadow: 1px 1px 2px #000;
+	}
+
+	/* <<<<<<<  COUNTER  = (END) <<<<<<<< */
+	/* >>>>>>> RESUMR = (START) >>>>>>> */
+	.resume_part i {
+		font-size: 20px;
+	}
+
+	.resume_part h4 {
+		margin-left: 15px;
+		padding: 15px 0px 10px;
+	}
+
+	.education {
+		padding: 15px;
+		margin: 0px 10px;
+	}
+
+	.education h5 {
+		padding-bottom: 5px;
+	}
+
+	.education h6 {
+		padding: 5px 0px 10px;
+	}
+
+	/* <<<<<<< RESUMR = (END) <<<<<<<< */
+	/* >>>>>>> OFFICE = (START) >>>>>>> */
+	.office_text {
+		padding: 0px 10px;
+	}
+
+	.office_text h5 {
+		font-size: 25px;
+		padding-bottom: 15px;
+	}
+
+	.office_text p {
+		font-size: 12px;
+	}
+
+	.office_img {
+		margin: 10px;
+	}
+
+	.office_img img {
+		height: 200px;
+	}
+
+	.office_img a {
+		font-size: 30px;
+	}
+
+	/* <<<<<<< OFFICE = (END) <<<<<<<< */
+	/* >>>>>>>  PACKAGE = (START) >>>>>>> */
+	.package_items {
+		margin: 10px;
+	}
+
+	/* <<<<<<<  PACKAGE = (END) <<<<<<<< */
+	/* >>>>>>>  TESTMONIAL  = (START) >>>>>>> */
+	.test_items {
+		margin: 50px 5px 5px;
+	}
+
+	.test_cont {
+		padding: 30px 10px;
+	}
+
+	.test_items img {
+		height: 50px;
+		width: 50px;
+		top: -25px;
+	}
+
+	.test_cont h6 {
+		font-size: 14px;
+	}
+
+	.test_cont h5 {
+		font-size: 13px;
+	}
+
+	.test_cont p {
+		font-size: 10px;
+	}
+
+	.left_arrow {
+		top: 0;
+		right: 5%;
+	}
+
+	.right_arrow {
+		top: 0;
+	}
+
+	.slick-dots {
+		bottom: -5%;
+	}
+
+	/* <<<<<<<  TESTMONIAL  = (END) <<<<<<<< */
+	/* >>>>>>> CONTACT = (START) >>>>>>> */
+	.contact_form textarea,
+	.contact_form input {
+		margin: 5px 0px;
+	}
+
+	/* <<<<<<< CONTACT = (END) <<<<<<<< */
+	/* >>>>>>>  BACK to TOP = (START) >>>>>>> */
+	.totop {
+		bottom: 50px;
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+		font-size: 18px;
+	}
+
+	/* <<<<<<<  BACK to TOP = (END) <<<<<<<< */
+	/* >>>>>>>  FOOTER = (START) >>>>> */
+	.footer_part {
+		background: #001a27;
+		padding: 10px 0px;
+	}
+
+	.footer_part h6 {
+		font-size: 10px;
+	}
+
+	.footer_part a {
+		font-size: 8px;
+		padding: 0px 5px;
+	}
+
+	/* <<<<<<<  FOOTER  = (END) <<<<<<<< */
+}
+
+/* Small Mobile- END (320 * 440) */
+/*---------------------------------------------------------------------------------------------------------------------*/
+/* Medium Mobile- START (441 * 575)*/
+@media (min-width: 441px) and (max-width: 575px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	h6 {
+		font-size: 14px;
+	}
+
+	.ptb {
+		padding: 30px 0px;
+	}
+
+	.btn {
+		margin: 10px 5px 0px 0px;
+		font-size: 12px;
+	}
+
+	/* >>>>>>> Common Heading = (START) >>>>>> */
+	.common_part {
+		padding-bottom: 20px;
+	}
+
+	/* <<<<<<< Common Heading = (END) <<<<<<< */
+	/* >>>>>>> HEADER = (START) >>>>>>> */
+	.header_part .nav-item .nav-link {
+		padding: 2px 5px;
+	}
+
+	/* <<<<<<< HEADER = (END) <<<<<<<< */
+	/* >>>>>>>  BANNER = (START) >>>>>>> */
+	.banner_img p {
+		padding: 10px;
+	}
+
+	/* <<<<<<<  BANNER = (END) <<<<<<<< */
+	/* >>>>>>>  SKILLS  = (START) >>>>>>> */
+	.skills_part li {
+		padding: 10px;
+	}
+
+	.skill_icon i {
+		font-size: 20px;
+	}
+
+	.skills_part h3 {
+		font-size: 12px;
+	}
+
+	.bar {
+		height: 5px;
+		margin-top: 6px;
+	}
+
+	.bar span {
+		height: 5px;
+	}
+
+	/* <<<<<<<  SKILLS  = (END) <<<<<<<< */
+	.port_img {
+		margin: 10px 30px;
+	}
+
+	/* >>>>>>>  COUNTER  = (START) >>>>>>> */
+	.counter_item i {
+		font-size: 25px;
+		height: 50px;
+		width: 50px;
+	}
+
+	.counter_item .counter {
+		font-size: 20px;
+		padding: 5px 0px;
+	}
+
+	.counter_item h4 {
+		font-size: 10px;
+		text-shadow: 1px 1px 2px #000;
+	}
+
+	/* <<<<<<<  COUNTER  = (END) <<<<<<<< */
+	/* >>>>>>> RESUMR = (START) >>>>>>> */
+	.resume_part i {
+		font-size: 20px;
+	}
+
+	.resume_part h4 {
+		margin-left: 15px;
+		padding: 15px 0px 10px;
+	}
+
+	.education {
+		padding: 15px;
+		margin: 0px 10px;
+	}
+
+	.education h5 {
+		padding-bottom: 5px;
+	}
+
+	.education h6 {
+		padding: 5px 0px 10px;
+	}
+
+	/* <<<<<<< RESUMR = (END) <<<<<<<< */
+	/* >>>>>>> OFFICE = (START) >>>>>>> */
+	.office_text {
+		padding: 0px 10px;
+	}
+
+	.office_text h5 {
+		font-size: 25px;
+		padding-bottom: 15px;
+	}
+
+	.office_text p {
+		font-size: 13px;
+	}
+
+	.office_img {
+		margin: 10px;
+	}
+
+	/* <<<<<<< OFFICE = (END) <<<<<<<< */
+	/* >>>>>>>  PACKAGE = (START) >>>>>>> */
+	.package_items {
+		margin: 10px 40px;
+	}
+
+	/* <<<<<<<  PACKAGE = (END) <<<<<<<< */
+	.blog_part img {
+		height: 220px;
+	}
+
+	/* >>>>>>>  TESTMONIAL  = (START) >>>>>>> */
+	.test_items {
+		margin: 50px 5px 5px;
+	}
+
+	.test_cont {
+		padding: 30px 10px;
+	}
+
+	.test_items img {
+		height: 60px;
+		width: 60px;
+		top: -25px;
+	}
+
+	.test_cont h6 {
+		font-size: 14px;
+	}
+
+	.test_cont h5 {
+		font-size: 13px;
+	}
+
+	.left_arrow {
+		top: 0;
+		right: 5%;
+	}
+
+	.right_arrow {
+		top: 0;
+	}
+
+	.slick-dots {
+
+		bottom: -7%;
+
+	}
+
+	/* <<<<<<<  TESTMONIAL  = (END) <<<<<<<< */
+	/* >>>>>>> CONTACT = (START) >>>>>>> */
+	.contact_form textarea,
+	.contact_form input {
+		margin: 5px 0px;
+	}
+
+	/* <<<<<<< CONTACT = (END) <<<<<<<< */
+	/* >>>>>>>  BACK to TOP = (START) >>>>>>> */
+	.totop {
+		bottom: 50px;
+		right: 5px;
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+		font-size: 18px;
+	}
+
+	/* <<<<<<<  BACK to TOP = (END) <<<<<<<< */
+}
+
+/* Medium Mobile- END (441 * 575) */
+/*---------------------------------------------------------------------------------------------------------------------*/
+/* Large Mobile- START (576 * 767)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	.ptb {
+		padding: 30px 0px;
+	}
+
+	/* >>>>>>> Common Heading = (START) >>>>>> */
+	.common_part {
+		padding-bottom: 20px;
+	}
+
+	/* <<<<<<< Common Heading = (END) <<<<<<< */
+	/* >>>>>>> HEADER = (START) >>>>>>> */
+	.header_part .nav-item .nav-link {
+		padding: 5px;
+	}
+
+	/* <<<<<<< HEADER = (END) <<<<<<<< */
+
+	/* >>>>>>>  SKILLS  = (START) >>>>>>> */
+	.skills_part li {
+		padding: 10px;
+	}
+
+	.skill_icon i {
+		font-size: 20px;
+	}
+
+	.skills_part h3 {
+		font-size: 12px;
+	}
+
+	.bar {
+		height: 5px;
+		margin-top: 6px;
+	}
+
+	.bar span {
+		height: 5px;
+	}
+
+	/* <<<<<<<  SKILLS  = (END) <<<<<<<< */
+
+	.port_img {
+		height: 300px;
+	}
+
+	.blog_part img {
+		height: 140px;
+	}
+
+	/* >>>>>>>  COUNTER  = (START) >>>>>>> */
+	.counter_item i {
+		font-size: 25px;
+		height: 50px;
+		width: 50px;
+	}
+
+	.counter_item .counter {
+		font-size: 20px;
+		padding: 5px 0px;
+	}
+
+	.counter_item h4 {
+		font-size: 10px;
+		text-shadow: 1px 1px 2px #000;
+	}
+
+	/* <<<<<<<  COUNTER  = (END) <<<<<<<< */
+	/* >>>>>>> RESUMR = (START) >>>>>>> */
+	.resume_part i {
+		font-size: 20px;
+	}
+
+	.resume_part h4 {
+		margin-left: 15px;
+		padding: 15px 0px 10px;
+	}
+
+	.education {
+		padding: 15px;
+		margin: 0px 10px;
+	}
+
+	.education h5 {
+		padding-bottom: 5px;
+	}
+
+	.education h6 {
+		padding: 5px 0px 10px;
+	}
+
+	/* <<<<<<< RESUMR = (END) <<<<<<<< */
+	/* >>>>>>> OFFICE = (START) >>>>>>> */
+	.office_text {
+		padding: 0px 10px;
+	}
+
+	.office_text h5 {
+		font-size: 25px;
+		padding-bottom: 15px;
+	}
+
+	.office_text p {
+		font-size: 13px;
+	}
+
+	.office_img {
+		margin: 10px;
+	}
+
+	/* <<<<<<< OFFICE = (END) <<<<<<<< */
+	/* >>>>>>>  PACKAGE = (START) >>>>>>> */
+	.package_items {
+		margin: 10px;
+	}
+
+	/* <<<<<<<  PACKAGE = (END) <<<<<<<< */
+	/* >>>>>>>  TESTMONIAL  = (START) >>>>>>> */
+	.test_items {
+		margin: 50px 5px 5px;
+	}
+
+	.test_cont {
+		padding: 30px 10px;
+	}
+
+	.test_items img {
+		height: 60px;
+		width: 60px;
+		top: -25px;
+	}
+
+	.test_cont h6 {
+		font-size: 14px;
+	}
+
+	.test_cont h5 {
+		font-size: 13px;
+	}
+
+	.slick-dots {
+		bottom: -5%;
+	}
+
+	/* <<<<<<<  TESTMONIAL  = (END) <<<<<<<< */
+	/* >>>>>>> CONTACT = (START) >>>>>>> */
+	.contact_form textarea,
+	.contact_form input {
+		margin: 5px 0px;
+	}
+
+	/* <<<<<<< CONTACT = (END) <<<<<<<< */
+	/* >>>>>>>  FOOTER = (START) >>>>> */
+	.footer_part {
+		background: #001a27;
+		padding: 10px 0px;
+	}
+
+	.footer_part h6 {
+		font-size: 12px;
+	}
+
+	.footer_part a {
+		font-size: 10px;
+		padding: 0px 5px;
+	}
+
+	/* <<<<<<<  FOOTER  = (END) <<<<<<<< */
+}
+
+/* Large Mobile- END  (576 * 767)*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*  TAB- START (768 * 991)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.btn {
+		margin: 10px 5px 0px 0px;
+	}
+
+	.ptb {
+		padding: 40px 0px;
+	}
+
+	/* >>>>>>> Common Heading = (START) >>>>>> */
+	.common_part {
+		padding-bottom: 20px;
+	}
+
+	/* <<<<<<< Common Heading = (END) <<<<<<< */
+	/* >>>>>>> HEADER = (START) >>>>>>> */
+	.header_part .nav-item .nav-link {
+		padding: 10px 8px;
+		font-size: 12px;
+	}
+
+	/* <<<<<<< HEADER = (END) <<<<<<<< */
+	/* >>>>>>>  ABOUT  = (START) >>>>>>> */
+	.about_text {
+		padding: 0px;
+	}
+
+	.about_text h3 {
+		padding: 5px 0px;
+		font-size: 18px;
+	}
+
+	.about_text p {
+		line-height: 1.5;
+		font-size: 12px;
+		padding-bottom: 8px;
+	}
+
+	.about_text h5 {
+		padding: 4px 0px;
+		font-size: 13px;
+	}
+
+	.about_text h5 span {
+		color: #b2b2b2;
+		padding-left: 10px;
+	}
+
+	/* <<<<<<<  ABOUT  = (END) <<<<<<<< */
+	/* >>>>>>>  PORTFOLIO  = (START) >>>>>>> */
+	.port_img {
+		height: 200px;
+	}
+
+	.port_img_overly i {
+		margin-top: 5%;
+	}
+
+	.port_img_overly h5 {
+		padding: 10px 0px;
+		font-size: 20px;
+	}
+
+	.port_img_overly p {
+		padding: 0px;
+	}
+
+	/* <<<<<<<  PORTFOLIO  = (END) <<<<<<<< */
+	/* >>>>>>> RESUMR = (START) >>>>>>> */
+	.resume_part h4 {
+		margin-left: 15px;
+		padding: 15px 0px 10px;
+	}
+
+	.education {
+		padding: 15px;
+		margin: 0px 10px;
+	}
+
+	.education h5 {
+		padding-bottom: 5px;
+	}
+
+	.education h6 {
+		padding: 5px 0px 10px;
+	}
+
+	/* <<<<<<< RESUMR = (END) <<<<<<<< */
+	/* >>>>>>> OFFICE = (START) >>>>>>> */
+	.office_text {
+		padding: 0px;
+	}
+
+	.office_text h5 {
+		font-size: 25px;
+		padding-bottom: 15px;
+	}
+
+	.office_text p {
+		font-size: 13px;
+	}
+
+	.office_img {
+		margin: 10px;
+	}
+
+	/* <<<<<<< OFFICE = (END) <<<<<<<< */
+	/* >>>>>>>  PACKAGE = (START) >>>>>>> */
+	.package_items {
+		margin: 10px 0px;
+	}
+
+	.package_items p {
+		padding: 20px;
+	}
+
+	/* <<<<<<<  PACKAGE = (END) <<<<<<<< */
+	/* >>>>>>>  BLOG  = (START) >>>>>>> */
+	.blog_part img {
+		height: 150px;
+	}
+
+	.blog_cont {
+		padding: 10px 5px;
+	}
+
+	/* <<<<<<<  BLOG  = (END) <<<<<<<< */
+	/* >>>>>>>  TESTMONIAL  = (START) >>>>>>> */
+	.test_cont {
+		padding: 30px 20px;
+	}
+
+	.test_items img {
+		height: 70px;
+		width: 70px;
+	}
+
+	.test_cont h6 {
+		font-size: 14px;
+	}
+
+	.test_cont i {
+		font-size: 20px;
+	}
+
+	.test_cont h5 {
+		font-size: 13px;
+	}
+
+	/* <<<<<<<  TESTMONIAL  = (END) <<<<<<<< */
+	/* >>>>>>> CONTACT = (START) >>>>>>> */
+	.contact_info {
+		padding: 0px;
+	}
+
+	.contact_info p {
+		line-height: 1.5;
+	}
+
+	.contact_info h6 {
+		padding: 5px 0px;
+	}
+
+	.contact_info h6 i {
+		padding-right: 5px;
+		font-size: 20px;
+	}
+
+	.contact_form textarea,
+	.contact_form input {
+		margin: 5px 0px;
+	}
+
+	/* <<<<<<< CONTACT = (END) <<<<<<<< */
+}
+
+/*  TAB- END (768 * 991)*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*  Laptop- START (992 * 1199)*/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/*  Laptop- END (992 * 1199)*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*  Destop- START (1200 * 1300)*/
+@media (min-width: 1200px) and (max-width:1300px) {}
+
+/*  Destop- END (1200 * 1300)*/
+/*---------------------------------------------------------------------------------------------------------------------*/

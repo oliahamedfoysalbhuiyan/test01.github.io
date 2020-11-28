@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #ffffff;
+}
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #aaa;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+img,
+span,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i {
+  font-family: 'Raleway';
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 55px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #000;
+  text-align: center;
+  font-family: 'lato';
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 30px;
+  color: #aaa;
+  font-weight: 600;
+}
+h3 {
+  font-size: 35px;
+  color: #aaa;
+  font-weight: 600;
+}
+h4 {
+  font-size: 30px;
+  color: #ddd;
+  font-weight: 500;
+}
+h5 {
+  font-size: 25px;
+  color: #aaa;
+  font-weight: 600;
+}
+h6 {
+  font-size: 18px;
+  color: #aaa;
+  font-weight: 600;
+}
+p {
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+}
+.ptb {
+  padding: 50px 0px;
+}
+.btn {
+  padding: 6px 15px;
+  background: #1698bf;
+  border-radius: 30px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.btn:hover {
+  color: #fff;
+  background: #0d7391;
+  box-shadow: 1px 1px 2px #000;
+}
+/* --------------------------------------------------------------------------------- */
+/* >>>>>>> Common Heading = (START) >>>>>> */
+.common_part {
+  padding-bottom: 30px;
+}
+.common_part h4 {
+  color: #2f2f2f;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'lato';
+  letter-spacing: 1px;
+}
+.common_part h4 span {
+  color: #0d7391;
+  font-family: 'lato';
+}
+.divider {
+  position: relative;
+  display: inline-block;
+  margin: 0px 0;
+  width: 100px;
+  text-align: center;
+}
+.divider:before,
+.divider:after {
+  position: absolute;
+  left: 0;
+  top: -13px;
+  height: 2px;
+  width: 70px;
+  background-color: coral;
+  content: "";
+  border-radius: 1px;
+}
+.common_part .divider:after {
+  left: auto;
+  right: 0;
+}
+/* <<<<<<< Common Heading = (END) <<<<<<< */
+/* --------------------------------------------------------------------------------- */
+/* >>>>>>>  BACK to TOP = (START) >>>>>>> */
+.totop {
+  position: fixed;
+  bottom: 40px;
+  right: 5px;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  display: none;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  border-radius: 5px;
+  line-height: 45px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.totop:hover {
+  color: #fff;
+  box-shadow: 1px 1px 2px #000000;
+  text-shadow: 1px 1px 1px #000000;
+}
+/* <<<<<<<  BACK to TOP = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* --------------------------------------------------------------------------------- */
+/* >>>>>>> HEADER = (START) >>>>>>> */
+.header_part {
+  width: 100%;
+  z-index: 9999;
+  background-color: #ddd;
+  padding: 10px 0px;
+  position: fixed;
+  transition: 1s;
+  top: 0;
+}
+.header_part .nav-item .nav-link {
+  background-color: transparent;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+}
+.header_part .nav-item .active {
+  color: #2581ff;
+}
+.header_part .nav-item .nav-link:hover {
+  color: #2581ff;
+}
+.header_part.scrolling {
+  background-color: #ddd;
+  transition: 1s;
+  padding: 2px 0px;
+  border-bottom: 1px solid #aaa;
+  position: fixed;
+}
+.header_part.scrolling .nav-item .nav-link {
+  color: #444;
+}
+.header_part.scrolling .nav-item .active {
+  color: #2581ff;
+}
+.header_part.scrolling .nav-item .nav-link:hover {
+  color: #2581ff;
+}
+/* <<<<<<< HEADER = (END) <<<<<<<< */
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> BANNER = (START) >>>>>>> */
+.banner_part {
+  background: url(../image/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner_text {
+  padding: 160px 0px 140px;
+}
+.banner_text h4 {
+  text-align: center;
+  padding: 30px 60px;
+}
+/* <<<<<<< BANNER = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> WEDO = (START) >>>>>>> */
+.wedo_part h5 {
+  font-weight: 500;
+  color: #222;
+  line-height: 1.5;
+}
+.wedo_part .btn {
+  padding: 10px 20px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.wedo_item {
+  margin: 50px 20px 30px;
+  padding: 40px 0px;
+  background: #eee;
+  box-shadow: 1px 1px 4px #000;
+  border-radius: 10px;
+  transition: .3s;
+}
+.wedo_item:hover {
+  transform: scale(1.05);
+}
+.wedo_item h6 {
+  color: #207eb9;
+  font-size: 25px;
+  padding: 20px 0px;
+}
+/* <<<<<<< WEDO = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> COMPANY = (START) >>>>>>> */
+.company_img img {
+  height: 100px;
+  padding: 0px 20px;
+}
+.left_arrow {
+  font-size: 0px;
+}
+.right_arrow {
+  font-size: 0;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slick-dots li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.slick-dots li button {
+  font-size: 0px;
+  width: 8px;
+  height: 8px;
+  background-color: #dedede;
+  border: none;
+  border-radius: 3px;
+}
+.slick-dots .slick-active button {
+  background-color: #00b4de;
+  width: 12px;
+  height: 8px;
+}
+/* <<<<<<< COMPANY = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> Awaed = (START) >>>>>>> */
+.awaed_img img {
+  height: 400px;
+  padding: 0px 20px;
+}
+.awaed_text {
+  padding: 60px 110px 0px 0px;
+}
+.awaed_text h4 {
+  color: #207eb9;
+  padding-bottom: 30px;
+}
+.awaed_text p {
+  line-height: 1.7;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+/* <<<<<<< Awaed = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> CASE = (START) >>>>>>> */
+.case_text {
+  padding: 0;
+  background: #207eb9;
+}
+.case_text h6 {
+  font-weight: 500;
+  color: #ddd;
+  line-height: 2;
+  padding: 80px;
+}
+.case_text h6 span {
+  color: #eee;
+}
+.case_text .btn {
+  margin-left: 80px;
+  box-shadow: 1px 1px 3px #333;
+}
+.case_img {
+  padding: 0;
+  background: #207eb9;
+  position: relative;
+}
+.play_btn {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  vertical-align: middle;
+  transform: translate(-50%);
+}
+.play_btn a i {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  font-size: 30px;
+  background: #207eb9;
+  color: #fff;
+  text-align: center;
+  line-height: 2.6;
+  border: 3px solid #ddd;
+  text-shadow: 1px 1px 2px #222;
+}
+/* <<<<<<< CASE = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> WHY = (START) >>>>>>> */
+.why_part .btn {
+  margin: 0 auto;
+}
+.why_item {
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 1px 1px 3px #444;
+  margin: 10px 10px 20px;
+  background: #eee;
+  border-radius: 20px;
+}
+.why_item h5 {
+  padding: 20px 0px;
+  color: #207eb9;
+}
+/* <<<<<<< WHY = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> DEMO = (START) >>>>>>> */
+.demo_part {
+  background: url(../image/banner1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed ;
+  position: relative;
+  padding: 100px 0px;
+}
+.demo_part .btn {
+  padding: 15px 30px;
+  font-size: 20px;
+}
+/* <<<<<<< DEMO = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> CONTACT = (START) >>>>>>> */
+.conatct_part {
+  background: #222;
+}
+.contact_item h5 {
+  padding-bottom: 20px;
+  color: #008b8b;
+}
+.contact_item p {
+  color: #bbb;
+  padding-bottom: 15px;
+}
+.contact_item p i {
+  font-size: 20px;
+  padding-right: 5px;
+}
+.contact_item a i {
+  font-size: 20px;
+  margin: 20px 15px 0px 0px;
+}
+.contact_item a i:hover {
+  color: #fff;
+  transform: scale(1.1);
+  color: #207eb9;
+  text-shadow: 0 0 5px #000;
+}
+.contact_form textarea,
+.contact_form input {
+  background-color: transparent;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 5px;
+  border: 0.5px solid #4a4a4a;
+  box-shadow: 1px 1px 3px #000;
+}
+.contact_form .btn {
+  margin-top: 5px;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+/* <<<<<<< CONTACT = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> FOOTER = (START) >>>>>>> */
+.footer_part {
+  background: #333;
+  padding: 10px 0px;
+}
+.footer_part p {
+  color: #777;
+}
+.footer_part p span {
+  float: right;
+  color: #ddd;
+}
+.footer_part p span a {
+  color: #777;
+}
+/* <<<<<<< FOOTER = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */

@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,400,700,900|Open+Sans:400,700&amp;display=swap');
+/* Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+i,
+a,
+a:hover {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #a3a3a3;
+  transition: 0.3s;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+p,
+img,
+.btn,
+.nav-link,
+.nav-item,
+.nav-brand,
+.lead,
+.navbar,
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+/* colors*/
+/* colors*/
+/* Mixins start*/
+/* Mixins ends*/
+h1 {
+  font-size: 62px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+h1 span {
+  color: #4c76ff;
+}
+h2 {
+  font-size: 48px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+h2 span {
+  color: #4c76ff;
+}
+h3 {
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+  color: #4c76ff;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  margin-right: 40px;
+}
+h4 span {
+  color: #5bc5f4;
+  margin-left: -6px;
+}
+h5 {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+h6 {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #062033;
+}
+p {
+  font-size: 11px;
+  color: #797c88;
+}
+a {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+}
+.bg {
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.mtb {
+  margin: 30px 0px;
+}
+/* COMMON CSS END */
+.manu_part {
+  background: rgba(23, 11, 92, 0.53);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+}
+.menu .nav-item .nav-link {
+  font-size: 14px;
+  padding: 20px 0px;
+  margin: 0px 16px;
+  color: #fff;
+  font-weight: 400;
+  transition: 0.4s;
+  position: relative;
+}
+.menu .nav-item .nav-link::after {
+  width: 0;
+  height: 3px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s;
+  background: #4bcaff;
+  opacity: 0;
+}
+.menu .nav-item.active .nav-link::after,
+.menu .nav-item:hover .nav-link::after {
+  width: 100%;
+  opacity: 1;
+}
+.menu .nav-item.active .nav-link,
+.menu .nav-item:hover .nav-link {
+  color: #4bcaff;
+}
+/* MANU part Ends */
+/* Banner part Start */
+.banner_part {
+  background: url(../image/banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+.banner_part .banner_text {
+  padding: 80px 0px 0px 100px;
+}
+.banner_part .banner_text a i {
+  font-size: 17px;
+  margin: 25px 0px;
+  margin-right: 10px;
+  color: #797c88;
+  transition: .4s;
+}
+.banner_part .banner_text a i:hover {
+  color: #ffffff;
+}
+/* Banner part Ends */
+.common_heading {
+  padding-bottom: 30px;
+}
+.common_heading img {
+  padding-bottom: 10px;
+}
+.common_heading p {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px 150px 40px;
+}
+/* Features part Start */
+.features_part {
+  padding: 80px 0px;
+  background: #efefef;
+}
+.features_part .features_item i {
+  color: #4c76ff;
+  padding: 7px;
+  border: 1px solid #4c76ff;
+  border-radius: 50%;
+  float: left;
+  margin-right: 15px;
+}
+.features_part .features_item h6 {
+  float: left;
+}
+.features_part .features_item p {
+  float: left;
+  padding: 0px 50px;
+}
+/* Features part Ends */
+/* Mobile part Start */
+.mobile_part {
+  padding-bottom: 50px;
+}
+.mobile_part h5 {
+  color: #2f2c2f;
+  line-height: 2;
+  padding: 50px 100px;
+}
+.mobile_part i {
+  font-size: 30px;
+  float: left;
+  margin-right: 30px;
+  transition: 0.4s;
+}
+.mobile_part i:hover {
+  color: #222222;
+}
+.mobile_part h6 {
+  font-size: 14px;
+  float: left;
+  margin-bottom: 15px;
+}
+.mobile_part p {
+  font-size: 13px;
+  float: left;
+  padding: 0px 50px 50px 60px;
+}
+.mobile_item {
+  padding-top: 80px;
+}
+/* Mobile part Ends */
+/* TEAM part Start */
+.team_part {
+  padding: 50px 0px;
+}
+.team_part h6 {
+  color: #33b698;
+  padding-top: 10px;
+}
+.team_part span {
+  font-size: 11px;
+  color: #9a9a9a;
+}
+.team_img {
+  position: relative;
+}
+.team_img .team_img_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(85, 125, 255, 0.89);
+  transition: all linear 0.3s;
+  text-align: center;
+  opacity: 0;
+}
+.team_img .team_img_overlay p,
+.team_img .team_img_overlay b {
+  font-size: 14px;
+  color: #fff;
+  padding: 20px;
+}
+.team_img .team_img_overlay i {
+  margin-top: 60px;
+  font-size: 20px;
+  height: 35px;
+  width: 35px;
+  padding-top: 8px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.53);
+}
+.team_img .team_img_overlay i:hover {
+  color: #b7d5ff;
+}
+.team_img:hover .team_img_overlay {
+  height: 100%;
+  opacity: 1;
+}
+.team_img img {
+  width: 100%;
+}
+/* TEAM part Ends */
+/* Work part Start */
+.work_part {
+  padding: 50px 0px;
+}
+/* ---- button ---- */
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  background: none;
+}
+.button:hover {
+  background-color: #8CF;
+  color: #222;
+}
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+.button.is-checked {
+  color: white;
+}
+.button-group {
+  margin-bottom: 20px;
+  padding-left: 300px;
+}
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.button-group .button {
+  float: left;
+  border-radius: 5;
+  margin: 10px;
+}
+/* ---- .element-item ---- */
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+.element-item img {
+  height: 200px;
+  width: 275px;
+  position: relative;
+}
+.work_item_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  background: rgba(85, 125, 255, 0.89);
+  transition: all linear 0.3s;
+  text-align: center;
+  transition: .4s;
+  opacity: 0;
+}
+.work_item_overlay p,
+.work_item_overlay b {
+  font-size: 14px;
+  color: #fff;
+  padding: 20px;
+}
+.work_item_overlay i {
+  margin-top: 60px;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.work_item_overlay:hover {
+  opacity: 1;
+  height: 100%;
+}
+.element-item .name {
+  position: absolute;
+}
+.element-item .symbol {
+  position: absolute;
+}
+.element-item .number {
+  position: absolute;
+}
+.element-item .weight {
+  position: absolute;
+}
+/* Work part Ends */
+/* FUN part Start */
+.fun_part {
+  background: url(../image/funbg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0px;
+}
+.fun_part .fun_item i {
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 30px;
+  border: 1px solid #a5a5a5;
+  color: #fff;
+}
+.fun_part .fun_item h2 {
+  font-weight: 600;
+  padding: 10px 0px 5px;
+}
+.fun_part .fun_item p {
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0px;
+}
+/* FUN part Ends */
+/* DISCUSSS part Start */
+.discuss_part {
+  padding: 50px 0px;
+}
+.discuss_part h4 {
+  font-size: 18px;
+  color: #4a4a4a;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.discuss_part p {
+  line-height: 2;
+  font-size: 12px;
+}
+.discuss_part h4 {
+  color: #1d1d1d;
+  padding-bottom: 40px;
+}
+.form-control {
+  border: none;
+  border-radius: none;
+  border-bottom: 1px solid #eaeaea;
+  float: left;
+}
+.form-control .form-group {
+  padding-bottom: 10px;
+}
+.submit_btn {
+  float: right;
+  background: #fff;
+  padding: 5px 10px;
+  font-weight: 500;
+  border-radius: 7px;
+  color: #797979;
+  border: 1px solid #dddddd;
+}
+.submit_btn:hover {
+  background: #e6f5ff;
+  color: #797979;
+}
+.discuss_icon {
+  padding: 20px 0px;
+}
+.discuss_icon a {
+  font-size: 20px;
+}
+.discuss_icon a i {
+  padding-bottom: 10px;
+  color: #dbdbdb;
+}
+.discuss_icon a i:hover {
+  color: #6a6a6a;
+}
+/* DISCUSSS part Ends */
+.maps_part img {
+  width: 100%;
+}
+/* FOOTER part Start */
+.footer_part {
+  padding: 50px 0px;
+  background: #292929;
+}
+.footer_part p {
+  color: #fff;
+  line-height: 2;
+  padding-top: 20px;
+  padding-right: 100px;
+}
+.footer_part h6 {
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.footer_part input {
+  background: none;
+  border: 2px solid #fff;
+  position: relative;
+  width: 80%;
+}
+.footer_part a {
+  position: absolute;
+  right: 25%;
+  bottom: 47%;
+}
+.footer_part h5 {
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 30px 90px 0px 0px;
+}
+.explore {
+  padding-right: 30px;
+}
+.explore h6 {
+  padding-bottom: 0px;
+  padding-left: 5px;
+  font-weight: 600;
+}
+.explore p {
+  padding-left: 20px;
+}
+/* FOOTER part Ends */
+.copyright_part {
+  padding: 5px 0px;
+  text-align: center;
+  background: #1c8d5d;
+}
+.copyright_part p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 0 3px #000000;
+}
+.copyright_part p span {
+  font-size: 13px;
+  color: #d3d3d3;
+  font-weight: 600;
+}
+.copyright_part p i {
+  color: #00a0ff;
+  text-shadow: 0 0 3px #000000;
+}

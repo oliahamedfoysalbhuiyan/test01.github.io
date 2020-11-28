@@ -1,0 +1,808 @@
+/*mobile devices (landscape phones, 576px and up)*/
+@media (min-width: 320px) and (max-width: 575px) {
+
+
+    h1 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    h2 span {
+        font-weight: 700;
+    }
+
+    h3 {
+        color: #353535;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    h4 {
+        color: #353535;
+        font-size: 16px;
+        font-weight: 700;
+
+    }
+
+    h5 {
+        color: #555555;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 500;
+        color: #555555;
+    }
+
+    .mtb_30 {
+        margin: 10px 0px;
+    }
+
+    /*-------top part start-------------*/
+    .top_part {
+        padding: 2px 0px;
+    }
+
+    .top_part p {
+        font-size: 13px;
+    }
+
+    .top_part a {
+        margin: 0px 5px;
+        font-size: 13px;
+    }
+
+    /*----top part end----------*/
+    /*-----manu part start---------*/
+    .menu_part .navbar-brand img {
+        padding: 5px 0px;
+    }
+
+    .menu .nav-item .nav-link {
+        padding: 3px 0px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    /*---manu end----*/
+
+    /****--banner part start-----****/
+    .banner_part {
+        padding: 20px 0px;
+    }
+
+    .banner_cont p {
+        color: #fff;
+        margin: 5px 0px 5px 60px;
+        font-size: 13px;
+    }
+
+    .banner_cont a {
+        font-weight: 300;
+    }
+
+    .banner_cont a.btn {
+        padding: 1px 5px;
+        border: 1px solid;
+        margin-left: 0px;
+        font-size: 13px;
+    }
+
+    /****--banner parrt end-----***/
+
+    /****--common_heading start-----****/
+    .common_heading img {
+        margin: 0px;
+        margin-top: -20px;
+    }
+
+    .common_heading h3 {
+        text-transform: uppercase;
+    }
+
+    /****--common_heading end-----***/
+    /****--about part start-----****/
+    .about_part {
+        padding-bottom: 10px;
+    }
+
+    .about_cont p {
+        padding: 10px 0px;
+        font-size: 13px;
+    }
+
+    /****--about parrt end-----***/
+    /*<<<<Services part Start>>>>>>>>>*/
+    .service_item {
+        margin: 15px 0px;
+    }
+
+    .service_cont {
+        padding: 20px 0px 10px;
+        transition: all linear 0.2s;
+        background: #f1f1f1;
+        width: 100%;
+    }
+
+    .service_cont h4 {
+        padding: 10px;
+    }
+
+    .service_cont p {
+        padding: 0px;
+    }
+
+    .service_img {
+        height: 40px;
+        width: 40px;
+        top: -15%;
+        left: 44%;
+        border: 1px solid #fff;
+    }
+
+    .service_img img {
+        padding-top: 8px;
+        height: 30px;
+        width: 22px;
+    }
+
+    /*>>>>>Services part End<<<<<<<<***/
+    /*<<<<portfolio part Start>>>>>>>>>*/
+    .portfolio_part {
+        padding-bottom: 10px;
+    }
+
+    .portfolio_img_sm {
+        margin-bottom: 10px;
+    }
+
+    .portfolio_img_lg {
+        margin-bottom: 10px;
+    }
+
+    /*>>>>>portfolio part End<<<<<<<<***/
+    /*<<<<TEAM part Start>>>>>>>>>*/
+    .team_part {
+        padding: 10px 0px;
+    }
+
+    .team_item h4 {
+        padding: 5px 0px 0px;
+    }
+
+    .team_item {
+        padding-bottom: 10px;
+    }
+
+    /*>>>>>TEAM part End<<<<<<<<***/
+    /*>>>>...Testimonial Part Start...>>>*/
+    .testmonial_part {
+        padding: 10px 0px;
+    }
+
+    .test_item {
+        padding-bottom: 10px;
+    }
+
+    .testmonial_img {
+        padding-bottom: 30px;
+    }
+
+    .testmonial_cont {
+        padding: 20px 0px 0px;
+    }
+
+    .testmonial_cont img {
+        padding-bottom: 5px
+    }
+
+    .testmonial_cont p {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    /*<<<<...Testimonial Part End....<<<*/
+    /*>>>>>...Contact Part Start...>>>>>*/
+    .contact_part {
+        padding: 10px 0px;
+    }
+
+    .beatls img {
+        padding-bottom: 10px;
+    }
+
+    .beatls p {
+        font-size: 13px;
+    }
+
+    .contact_us h4 {
+        padding: 10px 0px;
+    }
+
+    .cont_item {
+        padding-bottom: 10px;
+    }
+
+    .links h4 {
+        padding: 10px 0px;
+    }
+
+    .link1 a p {
+        padding-bottom: 5px;
+    }
+
+    .link2 a p {
+        padding-bottom: 5px;
+    }
+
+    .flickr h4 {
+        padding: 10px 0px 5px;
+    }
+
+    .flickr_img img {
+        margin: 0px 0px 5px;
+    }
+
+    /*<<<<<...Contact Part End....<<<<<*/
+    /*>>>>>...footer_part Start...>>>>>*/
+    .footer_part {
+        padding: 5px;
+    }
+
+    .footer_part p {
+        font-size: 13px;
+    }
+
+    /*<<<<<...footer_part End....<<<<<*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 25px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    h2 span {
+        font-weight: 700;
+    }
+
+    h3 {
+        color: #353535;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    h4 {
+        color: #353535;
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+
+    h5 {
+        color: #555555;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 500;
+        color: #555555;
+    }
+
+    .mtb_30 {
+        margin: 15px 0px;
+    }
+
+    /*-------top part start-------------*/
+    .top_part {
+        padding: 5px 0px;
+    }
+
+    .top_part p {
+        font-size: 13px;
+    }
+
+    .top_part a {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    /*----top part end----------*/
+    /*-----manu part start---------*/
+    .menu_part .navbar-brand img {
+        padding: 5px 0px;
+    }
+
+    .menu .nav-item .nav-link {
+        padding: 3px 0px;
+        text-align: center;
+    }
+
+    /*---manu end----*/
+
+    /****--banner part start-----****/
+    .banner_part {
+        padding: 25px 0px;
+    }
+
+    .banner_cont p {
+        color: #fff;
+        margin: 10px 0px 10px 100px;
+    }
+
+    /****--banner parrt end-----***/
+
+    /****--common_heading start-----****/
+    .common_heading img {
+        margin: 0px;
+        margin-top: -20px;
+    }
+
+    /****--common_heading end-----***/
+    /****--about part start-----****/
+    .about_part {
+        padding-bottom: 10px;
+    }
+
+    .about_cont p {
+        padding: 0px 0px;
+        font-size: 13px;
+    }
+
+    /****--about parrt end-----***/
+    /*<<<<Services part Start>>>>>>>>>*/
+    .service_item {
+        margin: 15px 0px;
+    }
+
+    .service_cont {
+        padding: 20px 0px 10px;
+    }
+
+    .service_cont h4 {
+        padding: 12px;
+        font-size: 17px;
+    }
+
+    .service_cont p {
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    .service_img {
+        height: 50px;
+        width: 50px;
+        top: -17%;
+        left: 35%;
+        border: 1px solid #fff;
+    }
+
+    .service_img img {
+        padding-top: 8px;
+        height: 38px;
+        width: 30px;
+    }
+
+    /*>>>>>Services part End<<<<<<<<***/
+    /*<<<<portfolio part Start>>>>>>>>>*/
+    .portfolio_part {
+        padding-bottom: 10px;
+    }
+
+    .portfolio_img_sm {
+        margin-bottom: 10px;
+    }
+
+    .portfolio_img_lg {
+        margin-bottom: 10px;
+    }
+
+    /*>>>>>portfolio part End<<<<<<<<***/
+    /*<<<<TEAM part Start>>>>>>>>>*/
+    .team_part {
+        padding: 10px 0px;
+    }
+
+    .team_item h4 {
+        padding: 5px 0px 5px;
+    }
+
+    .team_item {
+        padding-bottom: 10px;
+    }
+
+    /*>>>>>TEAM part End<<<<<<<<***/
+    /*>>>>...Testimonial Part Start...>>>*/
+    .testmonial_part {
+        padding: 10px 0px;
+    }
+
+    .test_item {
+        padding-bottom: 10px;
+    }
+
+    .testmonial_img {
+        padding-bottom: 30px;
+    }
+
+    .testmonial_cont {
+        padding: 20px 0px 0px;
+    }
+
+    .testmonial_cont img {
+        padding-bottom: 5px
+    }
+
+    .testmonial_cont p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    /*<<<<...Testimonial Part End....<<<*/
+    /*>>>>>...Contact Part Start...>>>>>*/
+    .contact_part {
+        padding: 20px 0px;
+    }
+
+    .beatls img {
+        padding-bottom: 15px;
+    }
+
+    .beatls p {
+        font-size: 12px;
+    }
+
+    .contact_us h4 {
+        padding: 15px 0px;
+    }
+
+    .cont_item {
+        padding-bottom: 10px;
+    }
+
+    .links h4 {
+        padding: 10px 0px 15px;
+    }
+
+    .link1 a p {
+        padding-bottom: 10px;
+    }
+
+    .link2 a p {
+        padding-bottom: 10px;
+    }
+
+    .flickr h4 {
+        padding: 10px 0px 10px;
+    }
+
+    .flickr_img img {
+        margin: 0px 0px 5px;
+        width: 70px;
+    }
+
+    /*<<<<<...Contact Part End....<<<<<*/
+    /*>>>>>...footer_part Start...>>>>>*/
+    .footer_part {
+        padding: 5px;
+    }
+
+    .footer_part p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 25px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .mtb_30 {
+        margin: 20px 0px;
+    }
+
+    /*-------top part start-------------*/
+    .top_part {
+        padding: 8px 0px;
+    }
+
+    .top_part a {
+        font-size: 13px;
+    }
+
+    /*----top part end----------*/
+    /*-----manu part start---------*/
+    .menu_part .navbar-brand img {
+        padding: 5px 0px;
+    }
+
+    .menu .nav-item .nav-link {
+        padding: 3px 0px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    /*---manu end----*/
+
+    /****--banner part start-----****/
+    .banner_part {
+        padding: 60px 0px;
+    }
+
+    /****--banner parrt end-----***/
+
+    /****--about part start-----****/
+    .about_part {
+        padding-bottom: 20px;
+    }
+
+    .about_cont p {
+        padding: 0px 0px;
+        font-size: 13px;
+    }
+
+    /****--about parrt end-----***/
+    /*<<<<Services part Start>>>>>>>>>*/
+
+    .service_cont {
+        padding: 20px 0px 20px;
+    }
+
+    .service_cont h4 {
+        padding: 12px;
+    }
+
+    .service_cont p {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .service_img {
+        height: 50px;
+        width: 50px;
+        top: -15%;
+        left: 40%;
+        border: 1px solid #fff;
+    }
+
+    .service_img img {
+        padding-top: 10px;
+        height: 40px;
+        width: 30px;
+    }
+
+    /*>>>>>Services part End<<<<<<<<***/
+    /*<<<<portfolio part Start>>>>>>>>>*/
+    .portfolio_part {
+        padding-bottom: 20px;
+    }
+
+    .portfolio_img_sm {
+        margin-bottom: 20px;
+    }
+
+    .portfolio_img_lg {
+        margin-bottom: 20px;
+    }
+
+    /*>>>>>portfolio part End<<<<<<<<***/
+    /*<<<<TEAM part Start>>>>>>>>>*/
+    .team_part {
+        padding: 10px 0px;
+    }
+
+    .team_item h4 {
+        padding: 5px 0px 5px;
+    }
+
+    .team_item {
+        padding-bottom: 10px;
+    }
+
+    .team_iteam_overlay ul li a {
+        height: 35px;
+        width: 35px;
+        font-size: 13px;
+        margin-bottom: 10px;;
+    }
+
+    /*>>>>>TEAM part End<<<<<<<<***/
+    /*>>>>...Testimonial Part Start...>>>*/
+    .testmonial_part {
+        padding: 10px 0px;
+    }
+
+    .test_item {
+        padding-bottom: 10px;
+    }
+
+    .testmonial_img {
+        padding-bottom: 30px;
+    }
+
+    .testmonial_cont {
+        padding: 20px 0px 10px;
+    }
+
+    /*<<<<...Testimonial Part End....<<<*/
+    /*>>>>>...Contact Part Start...>>>>>*/
+    .contact_part {
+        padding: 20px 0px;
+    }
+
+    .beatls img {
+        padding-bottom: 15px;
+    }
+    .beatls p{
+        font-size: 10px;
+    }
+    .contact_us h4 {
+        padding: 10px 0px 20px;
+    }
+
+    .cont_item {
+        padding-bottom: 15px;
+    }
+
+    .cont_item i {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        line-height: 20px;
+        color: #fff;
+        font-size: 10px;
+        background: #5bc5f4;
+        text-align: center;
+        margin-right: 2px;
+        float: left;
+    }
+
+    .cont_item p {
+        font-size: 9px;
+        float: left;
+    }
+
+    .links h4 {
+        padding: 10px 0px;
+    }
+
+    .link1 a p {
+        padding-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .link2 a p {
+        padding-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .flickr h4 {
+        padding: 10px 0px 20px;
+    }
+
+    .flickr_img img {
+        margin: 0px 0px 5px;
+        width: 67px;
+    }
+
+    /*<<<<<...Contact Part End....<<<<<*/
+    /*>>>>>...footer_part Start...>>>>>*/
+    .footer_part {
+        padding: 8px;
+    }
+
+    .footer_part p {
+        text-align: center;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*>>>>>...Contact Part Start...>>>>>*/
+    .beatls img {
+        padding-bottom: 20px;
+    }
+
+    .contact_us h4 {
+        padding: 10px 0px 20px;
+    }
+
+    .cont_item i {
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+        line-height: 30px;
+    }
+
+    .cont_item p {
+        font-size: 13px;
+    }
+
+    .links h4 {
+        padding: 10px 0px 20px;
+    }
+
+    .link1 a p {
+        padding-bottom: 6px;
+    }
+
+    .link2 a p {
+        padding-bottom: 6px;
+    }
+
+    .flickr h4 {
+        padding: 10px 0px 20px;
+    }
+
+    .flickr_img img {
+        margin: 0px 0px 5px;
+    }
+
+    /*<<<<<...Contact Part End....<<<<<*/
+    /*>>>>>...footer_part Start...>>>>>*/
+    .footer_part {
+        padding: 8px;
+    }
+
+    .footer_part p {
+        text-align: center;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width:1300px) {}

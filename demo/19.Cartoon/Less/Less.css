@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Righteous&amp;display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #eee;
+}
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+img,
+span,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i {
+  font-family: 'Righteous', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'nexa', sans-serif;
+}
+h1 {
+  font-size: 65px;
+  color: #00c168;
+  font-weight: 400;
+  font-family: 'nexa';
+}
+h1 span {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #00d070;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 1px #000;
+}
+h2 {
+  font-size: 34px;
+  color: #00c168;
+  font-weight: 300;
+}
+h3 {
+  color: #222;
+  font-size: 30px;
+  font-weight: 300;
+}
+h4 {
+  color: #0c7c49;
+  font-size: 24px;
+  font-weight: 300;
+}
+h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+h6 {
+  color: #0c7c49;
+  font-size: 16px;
+  font-weight: 600;
+}
+p {
+  font-size: 14px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+.ptb {
+  padding: 60px 0px;
+}
+.btn {
+  margin: 20px 10px 0px 0px;
+  padding: 8px 12px;
+  background: #00c168;
+  border-radius: 30px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+}
+.btn:hover {
+  color: #fff;
+  background: #00a257;
+  box-shadow: 1px 1px 3px #000;
+}
+/* ============================  */
+/* >>>>>>> HEADER = (START) >>>>>>> */
+.header_part {
+  width: 100%;
+  z-index: 9999;
+  padding: 5px 0px;
+  position: fixed;
+  background: #fff;
+  border-bottom: .5px solid #ddd;
+}
+.header_part .nav-item .nav-link {
+  background-color: transparent;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6a6a6a;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.header_part .nav-item .nav-link:hover {
+  color: #fff;
+}
+/* <<<<<<< HEADER = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>>  BANNER  = (START) >>>>>>> */
+.banner_part {
+  position: relative;
+}
+.banner_part .banner_text {
+  padding: 180px 20px 0px;
+  position: absolute;
+  top: 0;
+}
+.banner_part .banner_text p {
+  font-size: 18px;
+  color: #404040;
+  padding: 15px 0px;
+}
+.banner_part .banner_text p img {
+  padding-bottom: 10px;
+}
+.banner_part .banner_text .btn {
+  padding: 10px 25px;
+}
+/* <<<<<<<  BANNER  = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> Common Heading = (START) >>>>>> */
+.common_part {
+  padding-bottom: 40px;
+  position: relative;
+}
+.common_part h2 {
+  color: #01b17a;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Righteous', cursive;
+}
+.common_part h2 span {
+  color: #a2a2a2;
+}
+.common_part p {
+  font-family: 'Sriracha', cursive;
+  color: #717171;
+}
+/* <<<<<<< Common Heading = (END) <<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> WORK = (START) >>>>>>> */
+.work_part .btn {
+  padding: 12px 60px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.work_item {
+  margin: 15px 0px;
+  background: #ddd;
+  padding: 20px 20px 40px;
+  border-radius: 5px;
+  transition: .4s;
+  position: relative;
+}
+.work_item img {
+  height: 150px;
+  width: 150px;
+}
+.work_item h4 {
+  padding: 10px 0px;
+}
+.work_item p {
+  padding: 0px 20px;
+}
+.work_item::after {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  content: '';
+  height: 5px;
+  width: 100%;
+  border-radius: 0px 0px 5px 5px;
+  background: #00cbab;
+  opacity: 0;
+  transition: .5s;
+}
+.work_item:hover.work_item::after {
+  opacity: 1;
+}
+.work_overly {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  background: #f8315f;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -10px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  line-height: 1.7;
+  z-index: 999;
+}
+/* <<<<<<< WORK = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> PROJECT = (START) >>>>>>> */
+.item-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.item-list li {
+  float: left;
+  display: none;
+  border-radius: 5px;
+}
+.porject_img {
+  margin: 15px 0px;
+  box-shadow: 1px 1px 5px #222;
+}
+.more-trigger {
+  margin: 0 auto;
+}
+/* <<<<<<< PROJECT = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> APART = (START) >>>>>>> */
+.apart_item {
+  margin: 15px 0px;
+  text-align: center;
+  padding: 30px 10px;
+  box-shadow: 1px 1px 4px #222;
+  border-radius: 5px;
+}
+.apart_item p {
+  color: #fff;
+}
+.apart_item h5 {
+  padding: 10px 0px 15px;
+  text-shadow: 1px 1px 2px #111;
+}
+/* <<<<<<< APART = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> Getstart = (START) >>>>>>> */
+.start_item {
+  margin: 15px 0px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 10px;
+  box-shadow: 1px 1px 4px #333;
+  border-radius: 5px;
+  position: relative;
+}
+.start_item img {
+  height: 250px;
+  width: 100%;
+  margin: 0 auto;
+}
+.start_item p {
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 600;
+  color: #333;
+}
+.start_overly {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  background: #f8315f;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -10px;
+  color: #fff;
+  border-radius: 5px;
+  line-height: 1.7;
+  z-index: 999;
+}
+.start_item::after {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  content: '';
+  height: 0px;
+  width: 100%;
+  border-radius: 0px 0px 5px 5px;
+  background: #00cbab;
+  opacity: 0;
+  transition: .5s;
+}
+.start_item:hover.start_item::after {
+  opacity: 1;
+  height: 5px;
+}
+/* <<<<<<< Getstart = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> TEAM = (START) >>>>>>> */
+.team_img {
+  position: relative;
+}
+.team_img img {
+  border-radius: 5px;
+}
+.team_iteam_overlay {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top: 0;
+  width: 0;
+  background: rgba(0, 0, 0, 0.61);
+  transition: all linear 0.2s;
+  opacity: 0;
+  border-radius: 0px 5px 5px 0px;
+}
+.team_iteam img:hover .team_iteam_img {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.71);
+}
+.team_item {
+  margin: 15px 0px;
+}
+.team_item h4 {
+  padding: 5px 0px;
+}
+.team_item h5 {
+  color: #555;
+  font-size: 14px;
+}
+.team_item:hover .team_iteam_overlay {
+  width: 30%;
+  opacity: 1;
+}
+.team_iteam_overlay ul {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.team_iteam_overlay ul li a {
+  height: 40px;
+  width: 40px;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 15px;
+  transition: all linear 0.2s;
+}
+.team_iteam_overlay ul li:hover a {
+  background: #0f65bc;
+  border-color: #0f65bc;
+  font-size: 22px;
+}
+.team_iteam_overlay ul li a i {
+  line-height: 40px;
+}
+/* <<<<<<< TEAM = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>>  TESTMONIAL  = (START) >>>>>>> */
+.test_items {
+  margin: 50px 15px 15px;
+  position: relative;
+  box-shadow: 0 0 2px #111;
+  border-radius: 5px;
+}
+.test_items::after {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  content: '';
+  height: 35px;
+  width: 5px;
+  border-radius: 3px;
+  background: #f5235c;
+  opacity: 0;
+  transition: .5s;
+}
+.test_items:hover.test_items::after {
+  opacity: 1;
+  top: 48px;
+}
+.test_cont {
+  padding: 30px;
+  border-radius: 5px;
+}
+.test_items img {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  top: -40px;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 0 2px #333;
+}
+.test_cont h6 {
+  padding: 15px 0px 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+.test_cont i {
+  float: right;
+  font-size: 30px;
+  color: #eb5a81;
+}
+.test_cont h5 {
+  font-size: 14px;
+  color: #909090;
+  padding: 5px 0px 15px;
+  font-weight: 500;
+}
+.left_arrow {
+  position: absolute;
+  top: -10%;
+  right: 3%;
+  height: 40px;
+  width: 40px;
+  color: #939393;
+  font-size: 13px;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.2s;
+}
+.left_arrow:hover {
+  color: #f5235c;
+  transform: scale(1.2);
+}
+.right_arrow {
+  position: absolute;
+  top: -10%;
+  right: 0%;
+  height: 40px;
+  width: 40px;
+  color: #939393;
+  font-size: 13px;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.2s;
+}
+.right_arrow:hover {
+  color: #f5235c;
+  transform: scale(1.2);
+}
+.slick-dots {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slick-dots li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.slick-dots li button {
+  font-size: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: #bfbfbf;
+  border: none;
+  border-radius: 50%;
+}
+.slick-dots .slick-active button {
+  background-color: #f5235c;
+  width: 15px;
+  height: 15px;
+}
+/* <<<<<<<  TESTMONIAL  = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>> CONTACT = (START) >>>>>>> */
+.contact_part {
+  border-top: 1px solid #ddd;
+}
+.contact_info img {
+  padding: 10px 0px 15px;
+}
+.contact_info h4 {
+  font-weight: 600;
+  color: #0c9355;
+  padding: 15px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.contact_info p {
+  padding: 10px 0px;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.contact_info p i {
+  padding-right: 5px;
+  color: #177c6d;
+  font-size: 16px;
+}
+.contact_info p span {
+  color: #6c6c6c;
+  padding-left: 2px;
+  text-transform: none;
+}
+.contact_info a i {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  margin-right: 5px;
+  margin-top: 15px;
+  transition: .5s;
+}
+.contact_info a i:hover {
+  background: #0467ef;
+  color: #fff;
+  border-color: #0467ef;
+}
+.contact_form textarea,
+.contact_form input {
+  margin: 5px 0px;
+  border: none;
+  background-color: transparent;
+  border: .5px solid #ccc;
+}
+.contact_info h6 {
+  color: #555;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-bottom: 7px;
+  font-weight: 400;
+}
+/* <<<<<<< CONTACT = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>>  BACK to TOP = (START) >>>>>>> */
+.totop {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  display: none;
+  background: rgba(2, 167, 110, 0.8);
+  color: #fff;
+  border-radius: 5px;
+  line-height: 45px;
+  font-size: 30px;
+  text-align: center;
+}
+.totop:hover {
+  box-shadow: 1px 1px 2px #000000;
+}
+/* <<<<<<<  BACK to TOP = (END) <<<<<<<< */
+/* ------------------------------------------------------------------------------ */
+/* >>>>>>>  FOOTER = (START) >>>>> */
+.footer_part {
+  background: #001a27;
+  padding: 10px 0px;
+}
+.footer_part p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ddd;
+  text-align: center;
+}
+/* <<<<<<<  FOOTER  = (END) <<<<<<<< */
